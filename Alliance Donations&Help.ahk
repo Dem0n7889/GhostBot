@@ -1,5 +1,3 @@
-﻿; This script was created using Pulover's Macro Creator
-; www.macrocreator.com
 
 #NoEnv
 SetWorkingDir %A_ScriptDir%
@@ -17,7 +15,7 @@ SetBatchLines -1
 
 F3::
 AllianceDonationHelp:
-WinActivate, Nox17 ahk_class Qt5QWindowIcon
+WinActivate, Nox ahk_class Qt5QWindowIcon
 Sleep, 166
 CoordMode, Pixel, Window
 PixelSearch, FoundX, FoundY, 1600, 0, 3519, 1039, 0x415169, 5, Fast RGB
